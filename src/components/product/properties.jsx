@@ -9,7 +9,7 @@ const PropertyItem = ({ product, slug,baseUrl }) => {
           </Link>
           <div className="search-by-place-badge">
             <ul>
-              <li>{product.properties} Properties</li>
+              <li>{product.properties}</li>
             </ul>
           </div>
         </div>
@@ -22,7 +22,7 @@ const PropertyItem = ({ product, slug,baseUrl }) => {
           </h4>
           <div className="search-by-place-btn">
             <Link href={`${baseUrl}/${slug}`}>
-              View Property <i className="flaticon-right-arrow"></i>
+              Read More <i className="flaticon-right-arrow"></i>
             </Link>
           </div>
         </div>

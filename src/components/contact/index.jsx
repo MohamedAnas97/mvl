@@ -63,7 +63,7 @@ const Contact = () => {
       {/* <!-- CONTACT ADDRESS AREA END --> */}
 
       {/* <!-- CONTACT MESSAGE AREA START --> */}
-      <div className="ltn__contact-message-area mb-120 mb--100">
+      <div className="ltn__contact-message-area mb-90 mb--80">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -98,7 +98,7 @@ const Contact = () => {
                     <div className="col-md-6">
                       <div className="input-item input-item input-item-email ltn__custom-icon">
                         <Form.Select className="nice-select">
-                          <option>Select Service Type</option>
+                          <option>Select the product</option>
                           <option>Property Management </option>
                           <option>Mortgage Service </option>
                           <option>Consulting Service</option>
@@ -107,7 +107,7 @@ const Contact = () => {
                           <option>Escrow Services</option>
                         </Form.Select>
                         <span className="inline-icon">
-                          <FaArrowDown />
+                          {/* <FaArrowDown /> */}
                         </span>
                       </div>
                     </div>
@@ -133,19 +133,19 @@ const Contact = () => {
                       <FaPencilAlt />
                     </span>
                   </div>
-                  <p>
+                  {/* <p>
                     <label className="input-info-save mb-0">
                       <input type="checkbox" name="agree" /> Save my name,
                       email, and website in this browser for the next time I
                       comment.
                     </label>
-                  </p>
+                  </p> */}
                   <div className="btn-wrapper mt-0">
                     <button
                       className="btn theme-btn-1 btn-effect-1 text-uppercase"
                       type="submit"
                     >
-                      get a free service
+                    Submit Now
                     </button>
                   </div>
                   <p className="form-messege mb-0 mt-20"></p>
@@ -160,9 +160,9 @@ const Contact = () => {
       {/* <!-- GOOGLE MAP AREA START --> */}
       <div className="google-map mb-120">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9334.271551495209!2d-73.97198251485975!3d40.668170674982946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b0456b5a2e7%3A0x68bdf865dda0b669!2sBrooklyn%20Botanic%20Garden%20Shop!5e0!3m2!1sen!2sbd!4v1590597267201!5m2!1sen!2sbd"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9334.271551495209!2d-73.97198251485975!3d40.668170674982946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b0456b5a2e7%3A0x68bdf865dda0b669!2sMVL%20%20Firestop%20!5e0!3m2!1sen!2sbd!4v1590597267201!5m2!1sen!2sbd"
           width="100%"
-          height="100%"
+          height="450px"
         ></iframe>
       </div>
       {/* <!-- GOOGLE MAP AREA END --> */}

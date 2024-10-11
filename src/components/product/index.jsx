@@ -25,9 +25,9 @@ const ProductItem = ({
   let badgeText = "";
 
   if (productData.rent) {
-    badgeText = "For Rent";
+    badgeText = "Good Quality";
   } else {
-    badgeText = "For Sale";
+    badgeText = "High Quality";
   }
 
   const dispatch = useDispatch();
@@ -46,7 +46,7 @@ const ProductItem = ({
   );
   const addToCartTooltip = (props) => (
     <Tooltip id="button-tooltip" {...props}>
-     Add To Cart
+      Add To Cart
     </Tooltip>
   );
 
@@ -72,12 +72,12 @@ const ProductItem = ({
           <div className="product-img-location-gallery">
             <div className="product-img-location">
               <ul>
-                <li>
+                {/* <li>
                   <Link href="/locations">
                     <i className="flaticon-pin"></i>
                     {productData.locantion}
                   </Link>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div className="product-img-gallery">
@@ -104,20 +104,27 @@ const ProductItem = ({
             </div>
           </div>
         </div>
-        <div className="product-info">
-          <div className="product-price">
+        <div className="product-info  ">
+          {/* <div className="product-price">
             <span>
               {`$ ${productData.price}`}
               <label>/Month</label>
             </span>
-          </div>
-          <h2 className="product-title">
+          </div> */}
+          <h3 className="product-title">
             <Link href={`/${baseUrl}/${slug}`}>{productData.title}</Link>
-          </h2>
-          <div className="product-description">
-            <p>{productData.fullDescription}</p>
+          </h3>
+          <div className="search-by-place-info ">
+            <div className="search-by-place-btn  button-red">
+              <Link href={`${baseUrl}/${slug}`}>
+                Read More <i className="flaticon-right-arrow"></i>
+              </Link>
+            </div>
           </div>
-          <ul className="ltn__list-item-2 ltn__list-item-2-before">
+          {/* <div className="product-description">
+            <p>{productData.fullDescription}</p>
+          </div> */}
+          {/* <ul className="ltn__list-item-2 ltn__list-item-2-before">
             <li>
               <span>
                 {productData.propertyDetails.bedrooms}
@@ -139,9 +146,9 @@ const ProductItem = ({
               </span>
               square Ft
             </li>
-          </ul>
+          </ul> */}
         </div>
-        <div className="product-info-bottom">
+        {/* <div className="product-info-bottom">
           <div className="real-estate-agent">
             <div className="agent-img">
               <Link href="/team-details">
@@ -203,7 +210,7 @@ const ProductItem = ({
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
 
       <QuickViewtModal

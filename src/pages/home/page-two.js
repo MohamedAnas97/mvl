@@ -236,15 +236,16 @@ function HomeVersionTwo(props) {
       >
         <Container>
           <Row>
-            <Col xs={12}>
+            <Col xs={10}>
               <div className="section-title-area">
-                <h6 className="section-subtitle white-color">
+                {/* <h6 className="section-subtitle white-color">
                   Upcoming Projects
-                </h6>
+                </h6> */}
                 <h1 className="section-title  white-color">
-                  Dream Living Space <br />
-                  Setting New Standards
+                Our technology prevents fire
                 </h1>
+                
+                <h6 className="section-subtitle white-color"> At MVL Firestop, we are dedicated to enhancing fire safety and prevention in our communities. Our expert team provides comprehensive solutions, including fire risk assessments, safety training, and the latest fire detection technologies. We believe that knowledge and preparedness are key to preventing fire incidents. Join us in our mission to create safer environments for homes and businesses alike. Together, we can protect what matters most.</h6>
               </div>
             </Col>
           </Row>

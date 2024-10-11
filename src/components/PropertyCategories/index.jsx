@@ -9,15 +9,16 @@ const PropertyCategories = () => {
           <div
             className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image"
             style={{
-              backgroundImage: `url("/img/gallery/2.jpg")`,
+              backgroundImage: `url("/img/gallery/336.png")`,
             }}
           >
             <div className="ltn__banner-info">
               <h3>
-                <Link href="/shop"> Apartments </Link>
+                <Link href="/shop"> 
+                DIALYSIS CENTER (AL BARSHA, DUBAI)</Link>
               </h3>
-              <p> Great Deals Available</p>
-              <mark> 13 Listings</mark>
+              {/* <p> Great Deals Available</p> */}
+              {/* <mark> 13 Listings</mark> */}
             </div>
           </div>
         </Col>
@@ -25,15 +26,15 @@ const PropertyCategories = () => {
           <div
             className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image"
             style={{
-              backgroundImage: `url("/img/gallery/3.jpg")`,
+              backgroundImage: `url("/img/gallery/337.png")`,
             }}
           >
             <div className="ltn__banner-info">
               <h3>
-                <Link href="/shop"> Condos </Link>
+                <Link href="/shop"> DAMAC AKOYA HILLS(AKOYA HILLS, DUBAI) </Link>
               </h3>
-              <p> Great Deals Available</p>
-              <mark> 13 Listings</mark>
+              {/* <p> Great Deals Available</p>
+              <mark> 13 Listings</mark> */}
             </div>
           </div>
         </Col>
@@ -41,15 +42,15 @@ const PropertyCategories = () => {
           <div
             className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image"
             style={{
-              backgroundImage: `url("/img/gallery/7.jpg")`,
+              backgroundImage: `url("/img/gallery/338.png")`,
             }}
           >
             <div className="ltn__banner-info">
               <h3>
-                <Link href="/shop"> Houses </Link>
+                <Link href="/shop"> B+G+2P+14F+ROOF, RESIDENTIAL BUILDING (AL JADDAF, DUBAI) </Link>
               </h3>
-              <p> Great Deals Available</p>
-              <mark> 13 Listings</mark>
+              {/* <p> Great Deals Available</p>
+              <mark> 13 Listings</mark> */}
             </div>
           </div>
         </Col>
@@ -57,15 +58,15 @@ const PropertyCategories = () => {
           <div
             className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image"
             style={{
-              backgroundImage: `url("/img/gallery/8.jpg")`,
+              backgroundImage: `url("/img/gallery/333.png")`,
             }}
           >
             <div className="ltn__banner-info">
               <h3>
-                <Link href="/shop"> Retail </Link>
+                <Link href="/shop">EMAAR HILLS DEVELOPMENT BUILDING PROJECT (THE HILLS, DUBAI), </Link>
               </h3>
-              <p> Great Deals Available</p>
-              <mark> 13 Listings</mark>
+              {/* <p> Great Deals Available</p>
+              <mark> 13 Listings</mark> */}
             </div>
           </div>
         </Col>
@@ -73,15 +74,16 @@ const PropertyCategories = () => {
           <div
             className="ltn__banner-item ltn__banner-style-4 text-color-white bg-image"
             style={{
-              backgroundImage: `url("/img/gallery/9.jpg")`,
+              backgroundImage: `url("/img/gallery/334.png")`,
             }}
           >
             <div className="ltn__banner-info">
               <h3>
-                <Link href="/shop"> Villas </Link>
+                <Link href="/shop"> 
+                AL JADDAF HOTEL (AL JADDAF, DUBAI) </Link>
               </h3>
-              <p> Great Deals Available</p>
-              <mark> 13 Listings</mark>
+              {/* <p> Great Deals Available</p>
+              <mark> 13 Listings</mark> */}
             </div>
           </div>
         </Col>

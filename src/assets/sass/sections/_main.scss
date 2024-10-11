@@ -3596,7 +3596,7 @@ blockquote {
 }
 
 .google-map {
-  height: 800px;
+  height: 450px;
 }
 
 .ltn__contact-address-item-3 {
@@ -7393,6 +7393,7 @@ input.cart-plus-minus-box {
 
   .search-by-place-img {
     position: relative;
+    border: 1px solid #ff5a3c;
 
     .search-by-place-badge {
       position: absolute;
@@ -7418,7 +7419,7 @@ input.cart-plus-minus-box {
   }
 
   .search-by-place-info {
-    padding: 30px 5px 10px;
+    padding: 20px 5px 10px;
 
     h6 {
       font-family: var(--ltn__body-font);
@@ -7433,6 +7434,7 @@ input.cart-plus-minus-box {
     .search-by-place-btn {
       a {
         color: var(--ltn__secondary-color);
+        font-weight: 800;
       }
     }
   }
@@ -7442,7 +7444,11 @@ input.cart-plus-minus-box {
     margin-top: 10px;
   }
 }
-
+.button-red {
+  color: var(--ltn__secondary-color);
+  font-weight: 800;
+  margin-bottom: 10px;
+}
 /* ----------------------------------------------------
     Select Availability Table Area
 ---------------------------------------------------- */
@@ -7721,4 +7727,7 @@ input.cart-plus-minus-box {
 }
 .price_filter .price_slider_amount span:nth-child(3) {
   margin: 0 5px;
+}
+.image-height {
+  height: 590px;
 }
