@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <>
       {/* <!-- CONTACT ADDRESS AREA START --> */}
-      <div className="ltn__contact-address-area mb-90">
+      {/* <div className="ltn__contact-address-area mb-90">
         <div className="container">
           <div className="row">
             <div className="col-lg-4">
@@ -52,14 +52,17 @@ const Contact = () => {
                 </div>
                 <h3>Office Address</h3>
                 <p>
-                  18/A, New Born Town Hall <br />
-                  New York, US
+                Warehouse No. 16,
+Universal Global Warehouses,
+
+Dubai Investment Park 1,
+Dubai – UAE 
                 </p>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <!-- CONTACT ADDRESS AREA END --> */}
 
       {/* <!-- CONTACT MESSAGE AREA START --> */}

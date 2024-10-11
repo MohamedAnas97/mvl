@@ -10,7 +10,7 @@ const BlogItem = ({ baseUrl, data, slug }) => {
           </Link>
         </div>
         <div className="ltn__blog-brief">
-          <div className="ltn__blog-meta">
+          {/* <div className="ltn__blog-meta">
             <ul>
               <li className="ltn__blog-author">
                 <Link href="#">
@@ -26,7 +26,7 @@ const BlogItem = ({ baseUrl, data, slug }) => {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
           <h3 className="ltn__blog-title">
             <Link href={`${baseUrl}/${slug}`}>{data.title}</Link>
           </h3>

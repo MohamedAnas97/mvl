@@ -26,13 +26,17 @@ const Footer = function () {
                   <div className="footer-logo">
                     <div className="site-logo">
                       {/* <img src="/img/logo.png" alt="Logo" /> */}
-                      <img src="/img/logo-2.png" alt="Logo" />
+                      <img
+                        src="/img/logo.png"
+                        alt="Logo"
+                        className="logo-height"
+                      />
                     </div>
                   </div>
-                  <p>
+                  {/* <p>
                     Lorem Ipsum is simply dummy text of the and typesetting
                     industry. Lorem Ipsum is dummy text of the printing.
-                  </p>
+                  </p> */}
                   <div className="footer-address">
                     <ul>
                       <li>
@@ -40,7 +44,10 @@ const Footer = function () {
                           <FaMapMarkerAlt />
                         </div>
                         <div className="footer-address-info">
-                          <p>Brooklyn, New York, United States</p>
+                          <p>
+                            Warehouse No. 16, Universal Global Warehouses, Dubai
+                            Investment Park 1, Dubai – UAE
+                          </p>
                         </div>
                       </li>
                       <li>
@@ -49,7 +56,10 @@ const Footer = function () {
                         </div>
                         <div className="footer-address-info">
                           <p>
-                            <Link href="tel:+0123-456789">+0123-456789</Link>
+                            <Link href="tel:+0123-456789">
+                              {" "}
+                              +971-4-832-3347
+                            </Link>
                           </p>
                         </div>
                       </li>
@@ -60,7 +70,7 @@ const Footer = function () {
                         <div className="footer-address-info">
                           <p>
                             <Link href="mailto:example@example.com">
-                              example@example.com
+                              info@mvlfirestop.com
                             </Link>
                           </p>
                         </div>
@@ -101,9 +111,9 @@ const Footer = function () {
                       <li>
                         <Link href="/about">About</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/blog">Blog</Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/shop">All Products</Link>
                       </li>
@@ -134,9 +144,9 @@ const Footer = function () {
                       <li>
                         <Link href="/login">Login</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/my-account">My account</Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/about">Terms & Conditions</Link>
                       </li>
@@ -155,9 +165,9 @@ const Footer = function () {
                       <li>
                         <Link href="/login">Login</Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link href="/my-account">My account</Link>
-                      </li>
+                      </li> */}
                       <li>
                         <Link href="/wishlist">Wish List</Link>
                       </li>
@@ -192,8 +202,8 @@ const Footer = function () {
                       </div>
                     </form>
                   </div>
-                  <h5 className="mt-30">We Accept</h5>
-                  <img src="/img/icons/payment-4.png" alt="Payment Image" />
+                  {/* <h5 className="mt-30">We Accept</h5>
+                  <img src="/img/icons/payment-4.png" alt="Payment Image" /> */}
                 </div>
               </Col>
             </Row>
@@ -205,7 +215,7 @@ const Footer = function () {
               <Col xs={12} md={6}>
                 <div className="ltn__copyright-design clearfix">
                   <p>
-                    All Rights Reserved @ Company{" "}
+                    All Rights Reserved @ MVL Firestop{" "}
                     <span className="current-year"></span>
                   </p>
                 </div>
