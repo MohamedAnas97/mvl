@@ -27,8 +27,7 @@ import TestimonialCarouselItemTwo from "@/components/testimonialCarousel/indexTw
 import UpCommingcarousel from "@/components/upCommingCarousel";
 import BrandCarouselOne from "@/components/brandCarousel";
 import TestimonialStyleThree from "@/components/testimonialCarousel/indexThree";
-
-
+import ShopGrid from "../shop/grid";
 
 function HomeVersionThree(props) {
   const [isOpen, setOpen] = useState(false);
@@ -46,8 +45,7 @@ function HomeVersionThree(props) {
     <button
       {...props}
       className={
-        "slick-prev slick-arrow" +
-        (currentSlide === 0 ? " slick-disabled" : "")
+        "slick-prev slick-arrow" + (currentSlide === 0 ? " slick-disabled" : "")
       }
       aria-hidden="true"
       aria-disabled={currentSlide === 0 ? true : false}
@@ -84,8 +82,8 @@ function HomeVersionThree(props) {
         breakpoint: 1200,
         settings: {
           arrows: false,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 992,
@@ -93,8 +91,8 @@ function HomeVersionThree(props) {
           arrows: false,
           dots: true,
           slidesToShow: 2,
-          slidesToScroll: 1
-        }
+          slidesToScroll: 1,
+        },
       },
       {
         breakpoint: 768,
@@ -102,8 +100,8 @@ function HomeVersionThree(props) {
           arrows: false,
           dots: true,
           slidesToShow: 2,
-          slidesToScroll: 1
-        }
+          slidesToScroll: 1,
+        },
       },
       {
         breakpoint: 580,
@@ -111,12 +109,11 @@ function HomeVersionThree(props) {
           arrows: false,
           dots: true,
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
-
 
   const productCarouselsettings = {
     arrows: true,
@@ -132,8 +129,8 @@ function HomeVersionThree(props) {
         breakpoint: 992,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1
-        }
+          slidesToScroll: 1,
+        },
       },
       {
         breakpoint: 768,
@@ -141,8 +138,8 @@ function HomeVersionThree(props) {
           arrows: false,
           dots: true,
           slidesToShow: 2,
-          slidesToScroll: 1
-        }
+          slidesToScroll: 1,
+        },
       },
       {
         breakpoint: 575,
@@ -150,16 +147,16 @@ function HomeVersionThree(props) {
           arrows: false,
           dots: true,
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   const testiMonialsettings = {
     arrows: true,
     dots: false,
     centerMode: false,
-    centerPadding: '80px',
+    centerPadding: "80px",
     infinite: true,
     speed: 300,
     slidesToShow: 2,
@@ -171,8 +168,8 @@ function HomeVersionThree(props) {
         breakpoint: 1200,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1
-        }
+          slidesToScroll: 1,
+        },
       },
       {
         breakpoint: 992,
@@ -180,8 +177,8 @@ function HomeVersionThree(props) {
           arrows: false,
           dots: true,
           slidesToShow: 2,
-          slidesToScroll: 1
-        }
+          slidesToScroll: 1,
+        },
       },
       {
         breakpoint: 768,
@@ -189,8 +186,8 @@ function HomeVersionThree(props) {
           arrows: false,
           dots: true,
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
+          slidesToScroll: 1,
+        },
       },
       {
         breakpoint: 580,
@@ -199,10 +196,10 @@ function HomeVersionThree(props) {
           dots: true,
           centerMode: false,
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const blogSettings = {
@@ -232,7 +229,6 @@ function HomeVersionThree(props) {
   };
   return (
     <LayoutTwo topbar={true}>
-
       <ModalVideo
         channel="youtube"
         autoplay
@@ -248,7 +244,6 @@ function HomeVersionThree(props) {
       {/* <!-- SLIDER AREA END --> */}
       {/* <CarDealerSearchForm navMenuClass="d-none" customClasses="" /> */}
       {/* <!-- CAR DEALER FORM AREA END --> */}
-
 
       {/* <!-- FEATURE AREA START ( Feature - 6) --> */}
       <Feature
@@ -268,9 +263,9 @@ Z
       
 
     <!-- SEARCH BY PLACE AREA START (testimonial-7) --> */}
-    <AboutUsStyleOne sectionSpace="pt-50 pb-90" />
+      <AboutUsStyleOne sectionSpace="pt-50 pb-90" />
 
-    <div
+      <div
         className="ltn__upcoming-project-area bg-image-top pt-115 pb-65"
         style={{ backgroundImage: `url("../img/bg/22.jpg")` }}
       >
@@ -278,14 +273,21 @@ Z
           <Row>
             <Col xs={10}>
               <div className="section-title-area">
-                {/* <h6 className="section-subtitle white-color">
-                  Upcoming Projects
-                </h6> */}
                 <h1 className="section-title  white-color">
-                Our technology prevents fire
+                  Our technology prevents fire
                 </h1>
-                
-                <h6 className="section-subtitle white-color"> At MVL Firestop, we are dedicated to enhancing fire safety and prevention in our communities. Our expert team provides comprehensive solutions, including fire risk assessments, safety training, and the latest fire detection technologies. We believe that knowledge and preparedness are key to preventing fire incidents. Join us in our mission to create safer environments for homes and businesses alike. Together, we can protect what matters most.</h6>
+
+                <h6 className="section-subtitle white-color">
+                  {" "}
+                  At MVL Firestop, we are dedicated to enhancing fire safety and
+                  prevention in our communities. Our expert team provides
+                  comprehensive solutions, including fire risk assessments,
+                  safety training, and the latest fire detection technologies.
+                  We believe that knowledge and preparedness are key to
+                  preventing fire incidents. Join us in our mission to create
+                  safer environments for homes and businesses alike. Together,
+                  we can protect what matters most.
+                </h6>
               </div>
             </Col>
           </Row>
@@ -295,7 +297,6 @@ Z
 
       <div className="ltn__banner-area ">
         <Container>
-
           <Row>
             <Col xs={12}>
               <TitleSection
@@ -309,80 +310,12 @@ Z
             </Col>
           </Row>
 
-
           <PropertyCategories />
         </Container>
       </div>
-      {/* <div
-        className="ltn__search-by-place-area section-bg-1 pt-70 pb-70"
-
-
-      >
-        <Container>
-          <Row>
-            <Col xs={12}>
-              <TitleSection
-                sectionClasses="text-center"
-                headingClasses="section-subtitle-2"
-                titleSectionData={{
-                  subTitle: "Our Products",
-                  title: "Innovative Fire Protection Solutions",
-                }}
-              />
-            </Col>
-
-
-          </Row>
-
-          {!!countryProducts?.length ? (
-            <Slider
-              {...productsettings}
-              className="ltn__product-slider-item-four-active-full-width slick-arrow-1"
-            >
-              {countryProducts.map((product, key) => {
-                const slug = productSlug(product.title);
-
-                return (
-                  <PropertyItem
-                    key={key}
-                    product={product}
-                    slug={slug}
-                    baseUrl="/shop"
-                  />
-                );
-              })}
-            </Slider>
-          ) : null}
-{!!countryProducts?.length ? (
-            <Slider
-              {...productsettings}
-              className="ltn__product-slider-item-four-active-full-width slick-arrow-1"
-            >
-              {countryProducts.map((product, key) => {
-                const slug = productSlug(product.title);
-
-                return (
-                  <PropertyItem
-                    key={key}
-                    product={product}
-                    slug={slug}
-                    baseUrl="/shop"
-                  />
-                );
-              })}
-            </Slider>
-          ) : null}
-
-
-
-        </Container>
-      </div> */}
-      {/* <!-- SEARCH BY PLACE AREA END -->
-
-
 
       {/* PRODUCT SLIDER AREA START */}
-      <div className="ltn__product-slider-area ltn__product-gutter pt-115 pb-90 plr--7">
+      <div className="ltn__product-slider-area ltn__product-gutter pt-115  plr--7">
         <Container>
           <Row>
             <Col lg={12}>
@@ -396,8 +329,8 @@ Z
               />
             </Col>
           </Row>
-
-          <Row>
+          <ShopGrid />
+          {/* <Row>
             <Col lg={12}>
               {!!featuredProducts?.length ? (
                 <Slider
@@ -439,61 +372,14 @@ Z
                 </Slider>
               ) : null}
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </div>
       {/* PRODUCT SLIDER AREA END */}
 
-
-      {/* <!-- VIDEO AREA START --> */}
-      {/* <div className="ltn__video-popup-area">
-        <VideoBanner />
-      </div> */}
-      {/* <!-- VIDEO AREA END --> */}
-
-
-
-      {/* <!-- TESTIMONIAL AREA START --> */}
-      {/* <div className="ltn__testimonial-area ltn__testimonial-4 pt-115 pb-100 plr--9">
-        <Container fluid>
-          <Row>
-            <Col lg={12}>
-              <TitleSection
-                sectionClasses="text-center"
-                headingClasses="section-subtitle-2"
-                titleSectionData={{
-                  subTitle: "Our Testimonial",
-                  title: "Clients Feedback",
-                }}
-              />
-            </Col>
-          </Row>
-
-          <Row>
-            <Col lg={12}>
-              <TestimonialStyleThree data={testimonialData} />
-            </Col>
-          </Row>
-        </Container>
-      </div> */}
-      {/* <!-- TESTIMONIAL AREA END --> */}
-
-
-
-      {/* <!-- BRAND LOGO AREA START --> */}
-      {/* <div className="ltn__brand-logo-area ltn__brand-logo-1 section-bg-1 pt-110 pb-110 plr--9">
-        <Container fluid>
-          <Row>
-            <Col xs={12}>
-              <BrandCarouselOne data={brand} />
-            </Col>
-          </Row>
-        </Container>
-      </div> */}
       {/* <!-- BRAND LOGO AREA END --> */}
       <div className="neighbour-area section-bg-1 pt-90 pb-50">
         <Container>
-         
           <Row>
             <Col xs={12}>
               <div className="ltn__neighbour-tab-wrap">
@@ -502,7 +388,7 @@ Z
                     <Nav>
                       <Nav.Link eventKey="first">
                         {" "}
-                        <img src="/img/product-3/1.jpg" alt="#" />
+                        <img src="/img/product-3/2.jpg" alt="#" />
                       </Nav.Link>
                       <Nav.Link eventKey="second">
                         {" "}
@@ -529,20 +415,27 @@ Z
                                   <img src="/img/product-3/2.jpg" alt="#" />
                                 </Link>
                                 <div className="search-by-place-badge">
-                                  <ul>
-                                    {/* <li>9 Properties</li> */}
-                                  </ul>
+                                  <ul>{/* <li>9 Properties</li> */}</ul>
                                 </div>
                               </div>
                               <div className="search-by-place-info">
                                 <h4>
                                   <Link href="#">Fire Barrier Foam </Link>
                                 </h4>
-                                
+
                                 <div className="search-by-place-brief">
                                   <p>
-                                  
-                                  MVL Firestop is a well-known leader in Dubai with an extended reputation for supplying projects with Fire Barrier Foam US110 and other Passive Fire Protection and Thermal Insulation products around the United Arab Emirates, The Middle East, and North Africa. We understand the importance of fire safety; therefore, we ensure that our clients receive high-quality US110 Fire Barrier Foam manufactured following international standards.
+                                    MVL Firestop is a well-known leader in Dubai
+                                    with an extended reputation for supplying
+                                    projects with Fire Barrier Foam US110 and
+                                    other Passive Fire Protection and Thermal
+                                    Insulation products around the United Arab
+                                    Emirates, The Middle East, and North Africa.
+                                    We understand the importance of fire safety;
+                                    therefore, we ensure that our clients
+                                    receive high-quality US110 Fire Barrier Foam
+                                    manufactured following international
+                                    standards.
                                   </p>
                                 </div>
                                 <div className="search-by-place-btn">
@@ -562,41 +455,46 @@ Z
                         <div className="row">
                           <div className="col-lg-8">
                             <div className="neighbour-apartments-img">
-                              <img src="/img/neighbour/2.jpg" alt="#" />
+                              <img src="/img/product-3/3.jpg" alt="#" />
                             </div>
                           </div>
                           <div className="col-lg-4">
                             <div className="ltn__search-by-place-item neighbour-apartments-item">
                               <div className="search-by-place-img">
                                 <Link href="#">
-                                  <img src="/img/product-3/2.jpg" alt="#" />
+                                  <img src="/img/product-3/3.jpg" alt="#" />
                                 </Link>
                                 <div className="search-by-place-badge">
-                                  <ul>
-                                    <li>9 Properties</li>
-                                  </ul>
+                                  <ul>{/* <li>9 Properties</li> */}</ul>
                                 </div>
                               </div>
                               <div className="search-by-place-info">
                                 <h4>
-                                  <Link href="#">Medical Hospital</Link>
+                                  <Link href="#">SSCI Firestop Collar </Link>
                                 </h4>
-                                <label>
+                                {/* <label>
                                   <span className="ltn__secondary-color">
                                     1,500m{" "}
                                   </span>
                                   / 21 min. walk
-                                </label>
+                                </label> */}
                                 <div className="search-by-place-brief">
                                   <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore Enim ullamco laboris.
+                                    MVL Firestop is a well-known leader in Dubai
+                                    with an extended reputation for supplying
+                                    projects with SSCI Fire Collar and other
+                                    Firestopping products around the United Arab
+                                    Emirates, The Middle East, and North Africa.
+                                    We understand the importance of fire safety;
+                                    therefore, we ensure that our clients
+                                    receive high-quality SSCI Fire Collar
+                                    manufactured following international
+                                    standards.
                                   </p>
                                 </div>
                                 <div className="search-by-place-btn">
                                   <Link href="#">
-                                    View Property{" "}
+                                  Read More
                                     <i className="flaticon-right-arrow"></i>
                                   </Link>
                                 </div>
@@ -611,41 +509,34 @@ Z
                         <div className="row">
                           <div className="col-lg-8">
                             <div className="neighbour-apartments-img">
-                              <img src="/img/neighbour/3.jpg" alt="#" />
+                              <img src="/img/product-3/5.jpg" alt="#" />
                             </div>
                           </div>
                           <div className="col-lg-4">
                             <div className="ltn__search-by-place-item neighbour-apartments-item">
                               <div className="search-by-place-img">
                                 <Link href="#">
-                                  <img src="/img/product-3/4.jpg" alt="#" />
+                                  <img src="/img/product-3/5.jpg" alt="#" />
                                 </Link>
-                                <div className="search-by-place-badge">
+                                {/* <div className="search-by-place-badge">
                                   <ul>
                                     <li>9 Properties</li>
                                   </ul>
-                                </div>
+                                </div> */}
                               </div>
                               <div className="search-by-place-info">
                                 <h4>
-                                  <Link href="#">Children Playland</Link>
+                                  <Link href="#">CFS01 Mortar </Link>
                                 </h4>
-                                <label>
-                                  <span className="ltn__secondary-color">
-                                    1,500m{" "}
-                                  </span>
-                                  / 21 min. walk
-                                </label>
+                            
                                 <div className="search-by-place-brief">
                                   <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore Enim ullamco laboris.
+                                  MVL Firestop is a well-known leader in Dubai with an extended reputation for supplying projects with CFS01 Firestop Mortar and other Firestop Coating Systems around the United Arab Emirates, The Middle East, and North Africa.  We understand the importance of fire safety; therefore, we ensure that our clients receive high-quality CF01 Firestopping Mortar manufactured following international standards.
                                   </p>
                                 </div>
                                 <div className="search-by-place-btn">
                                   <Link href="#">
-                                    View Property{" "}
+                                  Read More
                                     <i className="flaticon-right-arrow"></i>
                                   </Link>
                                 </div>
@@ -658,7 +549,6 @@ Z
                   </Tab.Content>
                 </Tab.Container>
               </div>
-             
             </Col>
           </Row>
         </Container>
@@ -687,7 +577,11 @@ Z
             className="row ltn__testimonial-slider-6-active slick-arrow-3"
           >
             {testimonialData.map((data, key) => {
-              return <Col xs={12} lg={4} key={key}><TestimonialCarouselItemTwo data={data} /></Col>;
+              return (
+                <Col xs={12} lg={4} key={key}>
+                  <TestimonialCarouselItemTwo data={data} />
+                </Col>
+              );
             })}
 
             {/* <!--  --> */}
@@ -722,13 +616,13 @@ Z
           </Slider>
         </Container>
       </div>
+
       {/* <!-- BLOG AREA END -->
 
       
 
     <!-- CALL TO ACTION START (call-to-action-6) --> */}
-    <Contact />
-
+      <Contact />
 
       <div className="ltn__call-to-action-area call-to-action-6 before-bg-bottom">
         <Container>
@@ -745,12 +639,23 @@ Z
 }
 
 export async function getStaticProps() {
+  const filePath = path.join(
+    process.cwd(),
+    "src/data/hero/",
+    "index-three.json"
+  );
 
-  const filePath = path.join(process.cwd(), "src/data/hero/", "index-three.json");
+  const brandfilePath = path.join(
+    process.cwd(),
+    "src/data/brand-logo/",
+    "index.json"
+  );
 
-  const brandfilePath = path.join(process.cwd(), "src/data/brand-logo/", "index.json");
-
-  const testimonialFilePath = path.join(process.cwd(), "src/data/testimonial/", "index-three.json");
+  const testimonialFilePath = path.join(
+    process.cwd(),
+    "src/data/testimonial/",
+    "index-three.json"
+  );
 
   const data = JSON.parse(await fs.readFile(filePath));
   const brand = JSON.parse(await fs.readFile(brandfilePath));
@@ -760,7 +665,7 @@ export async function getStaticProps() {
     props: {
       data,
       brand,
-      testimonialData
+      testimonialData,
     },
   };
 }

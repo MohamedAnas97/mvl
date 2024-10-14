@@ -54,7 +54,7 @@ const RelatedProduct = ({
               alt={`${productData.title}`}
             />
           </Link>
-          <div className="real-estate-agent">
+          {/* <div className="real-estate-agent">
             <div className="agent-img">
               <Link href={`/${baseUrl}/${slug}`}>
                 <img
@@ -63,10 +63,10 @@ const RelatedProduct = ({
                 />
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="product-info">
-          <div className="product-badge">
+          {/* <div className="product-badge">
             <ul>
               <li
                 className={`sale-badge ${productData.rent ? "bg-green" : ""}`}
@@ -74,11 +74,9 @@ const RelatedProduct = ({
                 {badgeText}
               </li>
             </ul>
-          </div>
-          <h2 className="product-title">
-            <Link href={`/${baseUrl}/${slug}`}>{productData.title}</Link>
-          </h2>
-          <div className="product-img-location">
+          </div> */}
+
+          {/* <div className="product-img-location">
             <ul>
               <li>
                 <Link href={`/${baseUrl}/${slug}`}>
@@ -87,8 +85,8 @@ const RelatedProduct = ({
                 </Link>
               </li>
             </ul>
-          </div>
-          <ul className="ltn__plot-brief">
+          </div> */}
+          {/* <ul className="ltn__plot-brief">
             <li>
               <span>{productData.propertyDetails.bedrooms}</span>
               <span className="ms-1">Bedrooms</span>
@@ -101,8 +99,8 @@ const RelatedProduct = ({
               <span>{productData.propertyDetails.area}</span>
               <span className="ms-1">square Ft</span>
             </li>
-          </ul>
-          <div className="product-hover-action">
+          </ul> */}
+          {/* <div className="product-hover-action">
             <ul>
               <li>
                 <OverlayTrigger
@@ -144,14 +142,20 @@ const RelatedProduct = ({
                 </OverlayTrigger>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
         <div className="product-info-bottom">
           <div className="product-price">
-            <span>
-              {`$ ${productData.price}`}
-              <label>/Month</label>
-            </span>
+            <h4 className="product-title">
+              <Link href={`/${baseUrl}/${slug}`}>{productData.title}</Link>
+            </h4>
+            {/* <span>
+              <label>More Details</label> <i className="flaticon-right-arrow"></i>
+            </span> */}
+            <Link className="more-details more-details-button" href="" >
+              More Details
+              <i className="flaticon-right-arrow more-details-icon"></i>
+            </Link>
           </div>
         </div>
       </div>

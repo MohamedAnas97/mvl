@@ -408,7 +408,7 @@
       { "img": "33.jpg" }
     ],
     "title": " Fire Barrier Silicone Sealant",
-    "productImg": "4.jpg",
+    "productImg": "4.png",
     "price": 19,
     "priceRange": ["Medium"],
     "discount": 10,
@@ -746,8 +746,8 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "US110 Fire Barrier Foam",
-    "productImg": "2.jpg",
+    "title": "Fire Barrier Foam",
+    "productImg": "9.jpg",
     "price": 225,
     "priceRange": ["Low Budget", "Medium"],
     "discount": 5,
@@ -857,8 +857,8 @@
       { "img": "32.jpg" },
       { "img": "33.jpg" }
     ],
-    "title": "New Apartment Nice View",
-    "productImg": "2.jpg",
+    "title": "FP02 Firestop Sheet ",
+    "productImg": "8.jpg",
     "price": 500,
     "priceRange": ["Low Budget", "Medium"],
     "discount": 5,

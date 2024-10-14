@@ -24,7 +24,7 @@ function ShopGrid() {
   const [filterSortValue, setFilterSortValue] = useState("");
   const [offset, setOffset] = useState(0);
   const [sortedProducts, setSortedProducts] = useState([]);
-  const pageLimit = 6;
+  const pageLimit = 8;
   const [currentItems, setCurrentItems] = useState(products);
   const [pageCount, setPageCount] = useState(0);
 
@@ -90,24 +90,14 @@ function ShopGrid() {
   };
 
   return (
-    <LayoutOne topbar={true}>
-      {/* <!-- BREADCRUMB AREA START --> */}
-
-      <ShopBreadCrumb
-        title="Property Grid"
-        sectionPace=""
-        currentSlug="Property Grid"
-      />
-      {/* <!-- BREADCRUMB AREA END -->
-    
-    <!-- PRODUCT DETAILS AREA START --> */}
+   
 
       <div className="ltn__product-area ltn__product-gutter mb-120">
         <Container>
           <Row>
             <Col xs={12}>
               <Tab.Container defaultActiveKey="first">
-                <div className="ltn__shop-options">
+                {/* <div className="ltn__shop-options">
                   <ul>
                     <li>
                       <div className="ltn__grid-list-tab-menu">
@@ -150,7 +140,7 @@ function ShopGrid() {
                       </div>
                     </li>
                   </ul>
-                </div>
+                </div> */}
 
                 <Search spaceBottom="mb-30" setQuery={setQuery} />
                 <Tab.Content>
@@ -176,7 +166,7 @@ function ShopGrid() {
                           );
 
                           return (
-                            <Col key={key} xs={12} sm={6} lg={4}>
+                            <Col key={key} xs={6} sm={4} lg={3}>
                               <RelatedProduct
                                 slug={slug}
                                 baseUrl="shop/grid"
@@ -260,20 +250,10 @@ function ShopGrid() {
           </Row>
         </Container>
       </div>
-      {/* <!-- PRODUCT DETAILS AREA END -->
+   
 
-    <!-- CALL TO ACTION START (call-to-action-6) --> */}
-      <div className="ltn__call-to-action-area call-to-action-6 before-bg-bottom">
-        <Container>
-          <Row>
-            <Col xs={12}>
-              <CallToAction />
-            </Col>
-          </Row>
-        </Container>
-      </div>
-      {/* <!-- CALL TO ACTION END --> */}
-    </LayoutOne>
+  
+    // </LayoutOne>
   );
 }
 
