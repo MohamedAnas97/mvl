@@ -99,7 +99,7 @@ function HeroSectionStyleThree({ data }) {
                               </div>
                               <div className="btn-wrapper animated">
                                 <Link
-                                  href="/about"
+                                  href="/"
                                   className="theme-btn-1 btn btn-effect-1"
                                 >
                                   {item.buttonText}

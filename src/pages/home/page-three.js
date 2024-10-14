@@ -5,12 +5,11 @@ import Link from "next/link";
 import fs from "fs/promises";
 import { LayoutTwo } from "@/layouts";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
-import { getProducts, productSlug, getDiscountPrice } from "@/lib/product";
+import { getProducts, productSlug } from "@/lib/product";
 import TitleSection from "@/components/titleSection";
 import Feature from "@/components/features";
 import featuresData from "@/data/service";
 import HeroSectionStyleThree from "@/components/hero/styleThree";
-import PropertyItem from "@/components/product/properties";
 import Contact from "@/components/contact";
 import { useSelector } from "react-redux";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
@@ -18,15 +17,10 @@ import ModalVideo from "react-modal-video";
 import blogData from "@/data/blog";
 import BlogItem from "@/components/blog";
 import CallToAction from "@/components/callToAction";
-import VideoBanner from "@/components/banner/videoBanner";
-import ProductItem from "@/components/product";
 import PropertyCategories from "@/components/PropertyCategories";
 import AboutUsStyleOne from "@/components/aboutUs/aboutUsStyleOne";
-import CarDealerSearchForm from "@/components/carDealerSearchForm";
 import TestimonialCarouselItemTwo from "@/components/testimonialCarousel/indexTwo";
 import UpCommingcarousel from "@/components/upCommingCarousel";
-import BrandCarouselOne from "@/components/brandCarousel";
-import TestimonialStyleThree from "@/components/testimonialCarousel/indexThree";
 import ShopGrid from "../shop/grid";
 
 function HomeVersionThree(props) {
@@ -240,12 +234,6 @@ function HomeVersionThree(props) {
       <div className="ltn__slider-area ltn__slider-3 section-bg-2">
         <HeroSectionStyleThree data={data} />
       </div>
-
-      {/* <!-- SLIDER AREA END --> */}
-      {/* <CarDealerSearchForm navMenuClass="d-none" customClasses="" /> */}
-      {/* <!-- CAR DEALER FORM AREA END --> */}
-
-      {/* <!-- FEATURE AREA START ( Feature - 6) --> */}
       <Feature
         servicebtn={true}
         iconTag={false}
@@ -375,9 +363,6 @@ Z
           </Row> */}
         </Container>
       </div>
-      {/* PRODUCT SLIDER AREA END */}
-
-      {/* <!-- BRAND LOGO AREA END --> */}
       <div className="neighbour-area section-bg-1 pt-90 pb-50">
         <Container>
           <Row>
@@ -472,12 +457,6 @@ Z
                                 <h4>
                                   <Link href="#">SSCI Firestop Collar </Link>
                                 </h4>
-                                {/* <label>
-                                  <span className="ltn__secondary-color">
-                                    1,500m{" "}
-                                  </span>
-                                  / 21 min. walk
-                                </label> */}
                                 <div className="search-by-place-brief">
                                   <p>
                                     MVL Firestop is a well-known leader in Dubai
@@ -518,11 +497,6 @@ Z
                                 <Link href="#">
                                   <img src="/img/product-3/5.jpg" alt="#" />
                                 </Link>
-                                {/* <div className="search-by-place-badge">
-                                  <ul>
-                                    <li>9 Properties</li>
-                                  </ul>
-                                </div> */}
                               </div>
                               <div className="search-by-place-info">
                                 <h4>
@@ -617,11 +591,6 @@ Z
         </Container>
       </div>
 
-      {/* <!-- BLOG AREA END -->
-
-      
-
-    <!-- CALL TO ACTION START (call-to-action-6) --> */}
       <Contact />
 
       <div className="ltn__call-to-action-area call-to-action-6 before-bg-bottom">
@@ -633,7 +602,6 @@ Z
           </Row>
         </Container>
       </div>
-      {/* <!-- CALL TO ACTION END --> */}
     </LayoutTwo>
   );
 }

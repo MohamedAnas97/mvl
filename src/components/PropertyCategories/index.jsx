@@ -14,11 +14,9 @@ const PropertyCategories = () => {
           >
             <div className="ltn__banner-info">
               <h3>
-                <Link href="/shop"> 
+                <Link href="/"> 
                 DIALYSIS CENTER (AL BARSHA, DUBAI)</Link>
               </h3>
-              {/* <p> Great Deals Available</p> */}
-              {/* <mark> 13 Listings</mark> */}
             </div>
           </div>
         </Col>
@@ -31,10 +29,8 @@ const PropertyCategories = () => {
           >
             <div className="ltn__banner-info">
               <h3>
-                <Link href="/shop"> DAMAC AKOYA HILLS(AKOYA HILLS, DUBAI) </Link>
+                <Link href="/"> DAMAC AKOYA HILLS(AKOYA HILLS, DUBAI) </Link>
               </h3>
-              {/* <p> Great Deals Available</p>
-              <mark> 13 Listings</mark> */}
             </div>
           </div>
         </Col>
@@ -47,10 +43,8 @@ const PropertyCategories = () => {
           >
             <div className="ltn__banner-info">
               <h3>
-                <Link href="/shop"> B+G+2P+14F+ROOF, RESIDENTIAL BUILDING (AL JADDAF, DUBAI) </Link>
+                <Link href="/"> B+G+2P+14F+ROOF, RESIDENTIAL BUILDING (AL JADDAF, DUBAI) </Link>
               </h3>
-              {/* <p> Great Deals Available</p>
-              <mark> 13 Listings</mark> */}
             </div>
           </div>
         </Col>
@@ -63,10 +57,9 @@ const PropertyCategories = () => {
           >
             <div className="ltn__banner-info">
               <h3>
-                <Link href="/shop">EMAAR HILLS DEVELOPMENT BUILDING PROJECT (THE HILLS, DUBAI), </Link>
+                <Link href="/">EMAAR HILLS DEVELOPMENT BUILDING PROJECT (THE HILLS, DUBAI), </Link>
               </h3>
-              {/* <p> Great Deals Available</p>
-              <mark> 13 Listings</mark> */}
+          
             </div>
           </div>
         </Col>
@@ -79,11 +72,9 @@ const PropertyCategories = () => {
           >
             <div className="ltn__banner-info">
               <h3>
-                <Link href="/shop"> 
+                <Link href="/"> 
                 AL JADDAF HOTEL (AL JADDAF, DUBAI) </Link>
               </h3>
-              {/* <p> Great Deals Available</p>
-              <mark> 13 Listings</mark> */}
             </div>
           </div>
         </Col>

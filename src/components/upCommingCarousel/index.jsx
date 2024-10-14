@@ -104,42 +104,55 @@ const UpCommingcarousel = () => {
         </Col>
         {/* <!-- upcoming-project-item --> */}
         <Col xs={12}>
-          <div className="ltn__upcoming-project-item">
+        <div className="ltn__upcoming-project-item">
             <Row>
               <Col xs={12} lg={7}>
                 <div className="ltn__upcoming-project-img">
-                  <img src="/img/product-3/2.jpg" alt="#" />
+                  <img src="/img/product-3/plan.png" alt="#" className="image-height"/>
                 </div>
               </Col>
               <Col xs={12} lg={5} className="section-bg-1">
                 <div className="ltn__upcoming-project-info ltn__menu-widget">
-                  <h6 className="ltn__secondary-color">About Projects</h6>
-                  <h1>Upcoming Projects</h1>
-                  <ul>
-                    <li>
-                      1. Project Name: <span>Quarter</span>
-                    </li>
-                    <li>
-                      2. Project Type: <span>Apartment / Home</span>
-                    </li>
-                    <li>
-                      3. Building Location: <span>New York, USA</span>
-                    </li>
-                    <li>
-                      4. No. Of Apartments: <span>568</span>
-                    </li>
-                    <li>
-                      5. Total Investment: <span>$14,500,00</span>
-                    </li>
-                  </ul>
-                  <div className="btn-wrapper animated">
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    1. No Penetration
+                  </h3>
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    2. Metallic Pipe
+                  </h3>
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    3. Plastic Pipe
+                  </h3>
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    4. Cable Bundle
+                  </h3>
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    5. Insultaed Pipe
+                  </h3>
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    6. Busway
+                  </h3>
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    7. Air Duct
+                  </h3>
+
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    8. Multiple Penetrations
+                  </h3>
+                  <h3 className="itle ltn__secondary-color mt-1">
+                    9. Joint Systems
+                  </h3>
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    10. Dry Walls
+                  </h3>
+
+                  {/* <div className="btn-wrapper animated">
                     <Link
                       href="/contact"
                       className="theme-btn-1 btn btn-effect-1"
                     >
-                      Download Brochure
+                      Download Brochuresection-subt
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </Col>
             </Row>
@@ -147,42 +160,55 @@ const UpCommingcarousel = () => {
         </Col>
         {/* <!-- upcoming-project-item --> */}
         <Col xs={12}>
-          <div className="ltn__upcoming-project-item">
+        <div className="ltn__upcoming-project-item">
             <Row>
               <Col xs={12} lg={7}>
                 <div className="ltn__upcoming-project-img">
-                  <img src="/img/product-3/7.jpg" alt="#" />
+                  <img src="/img/product-3/plan.png" alt="#" className="image-height"/>
                 </div>
               </Col>
               <Col xs={12} lg={5} className="section-bg-1">
                 <div className="ltn__upcoming-project-info ltn__menu-widget">
-                  <h6 className="ltn__secondary-color">About Projects</h6>
-                  <h1>Upcoming Projects</h1>
-                  <ul>
-                    <li>
-                      1. Project Name: <span>Quarter</span>
-                    </li>
-                    <li>
-                      2. Project Type: <span>Apartment / Home</span>
-                    </li>
-                    <li>
-                      3. Building Location: <span>New York, USA</span>
-                    </li>
-                    <li>
-                      4. No. Of Apartments: <span>568</span>
-                    </li>
-                    <li>
-                      5. Total Investment: <span>$14,500,00</span>
-                    </li>
-                  </ul>
-                  <div className="btn-wrapper animated">
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    1. No Penetration
+                  </h3>
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    2. Metallic Pipe
+                  </h3>
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    3. Plastic Pipe
+                  </h3>
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    4. Cable Bundle
+                  </h3>
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    5. Insultaed Pipe
+                  </h3>
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    6. Busway
+                  </h3>
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    7. Air Duct
+                  </h3>
+
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    8. Multiple Penetrations
+                  </h3>
+                  <h3 className="itle ltn__secondary-color mt-1">
+                    9. Joint Systems
+                  </h3>
+                  <h3 className="section-title-area ltn__secondary-color mb-3 mt-1">
+                    10. Dry Walls
+                  </h3>
+
+                  {/* <div className="btn-wrapper animated">
                     <Link
                       href="/contact"
                       className="theme-btn-1 btn btn-effect-1"
                     >
-                      Download Brochure
+                      Download Brochuresection-subt
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </Col>
             </Row>

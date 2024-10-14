@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaRegUser, FaTags, FaRegCalendarAlt } from "react-icons/fa";
+import { FaRegCalendarAlt } from "react-icons/fa";
 const BlogItem = ({ baseUrl, data, slug }) => {
   return (
     <>
@@ -10,23 +10,6 @@ const BlogItem = ({ baseUrl, data, slug }) => {
           </Link>
         </div>
         <div className="ltn__blog-brief">
-          {/* <div className="ltn__blog-meta">
-            <ul>
-              <li className="ltn__blog-author">
-                <Link href="#">
-                  <FaRegUser className="me-2" />
-                  by:
-                  {data.admin}
-                </Link>
-              </li>
-              <li className="ltn__blog-tags">
-                <Link href="#">
-                  <FaTags className="me-2" />
-                  {data.type}
-                </Link>
-              </li>
-            </ul>
-          </div> */}
           <h3 className="ltn__blog-title">
             <Link href={`${baseUrl}/${slug}`}>{data.title}</Link>
           </h3>

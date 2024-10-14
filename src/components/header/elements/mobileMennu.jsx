@@ -81,13 +81,13 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
           <div className="ltn__utilize-menu">
             <ul>
               <li>
-                <Link href="#">Home</Link>
+                <Link href="/">Home</Link>
                 <span
                   className="menu-expand"
                   onClick={onClickHandler}
                   aria-hidden="true"
                 ></span>
-                <ul className="sub-menu">
+                {/* <ul className="sub-menu">
                   <li>
                     <Link href="/home">Home Style 01</Link>
                   </li>
@@ -121,16 +121,16 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                   <li>
                     <Link href="/home/page-eleven">Home Style 11</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
-                <Link href="#">About</Link>
+                <Link href="/">Firestopping Products</Link>
                 <span
                   className="menu-expand"
                   onClick={onClickHandler}
                   aria-hidden="true"
                 ></span>
-                <ul className="sub-menu">
+                {/* <ul className="sub-menu">
                   <li>
                     <Link href="/about">About</Link>
                   </li>
@@ -155,16 +155,16 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                   <li>
                     <Link href="/locations">Google Map Locations</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
-                <Link href="#">Property</Link>
+                <Link href="/">Fire Resistant Coatings</Link>
                 <span
                   className="menu-expand"
                   onClick={onClickHandler}
                   aria-hidden="true"
                 ></span>
-                <ul className="sub-menu">
+                {/* <ul className="sub-menu">
                   <li>
                     <Link href="/shop">Property</Link>
                   </li>
@@ -204,16 +204,16 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                   <li>
                     <Link href="/register">Register</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
-                <Link href="#">News</Link>
+                <Link href="/">News</Link>
                 <span
                   className="menu-expand"
                   onClick={onClickHandler}
                   aria-hidden="true"
                 ></span>
-                <ul className="sub-menu">
+                {/* <ul className="sub-menu">
                   <li>
                     <Link href="/blog">News</Link>
                   </li>
@@ -226,10 +226,10 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                   <li>
                     <Link href="/blog/right-sidebar">News Right sidebar</Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
-              <li>
-                <Link href="#">Pages</Link>
+              {/* <li>
+                <Link href="/">Pages</Link>
                 <span
                   className="menu-expand"
                   onClick={onClickHandler}
@@ -276,16 +276,16 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                     <Link href="/coming-soon">Coming Soon</Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li>
-                <Link href="/contact">Contact</Link>
+                <Link href="/">Contact</Link>
               </li>
             </ul>
           </div>
-          <div className="ltn__utilize-buttons ltn__utilize-buttons-2">
+          {/* <div className="ltn__utilize-buttons ltn__utilize-buttons-2">
             <ul>
               <li>
-                <Link href="/my-account" title="My Account">
+                <Link href="/" title="My Account">
                   <span className="utilize-btn-icon">
                     <FaRegUser />
                   </span>
@@ -319,7 +319,7 @@ const MobileMenu = function ({ offCanVastoggleBtn, closeSideBar }) {
                 </Link>
               </li>
             </ul>
-          </div>
+          </div> */}
           <div className="ltn__social-media-2">
             <ul>
               <li>

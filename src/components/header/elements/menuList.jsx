@@ -8,7 +8,7 @@ const MenuList = ({ addListing }) => {
         Home
           {/* Home <FaPlus /> */}
         </Link>
-        <ul className="sub-menu menu-pages-img-show">
+        {/* <ul className="sub-menu menu-pages-img-show">
           <li>
             <Link href="/">Home Style 01</Link>
             <img src="/img/home-demos/home-1.jpg" alt="#" />
@@ -53,13 +53,13 @@ const MenuList = ({ addListing }) => {
             <Link href="/home/page-eleven">Home Style 11</Link>
             <img src="/img/home-demos/home-11.jpg" alt="#" />
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className="menu-icon">
-        <Link href="/about">
+        <Link href="/">
           {/* About <FaPlus /> */} Firestopping Products 
         </Link>
-        <ul>
+        {/* <ul>
           <li>
             <Link href="/about">About</Link>
           </li>
@@ -84,13 +84,13 @@ const MenuList = ({ addListing }) => {
           <li>
             <Link href="/locations">Google Map Locations</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className="menu-icon">
-        <Link href="#">
+        <Link href="/">
           {/* Property <FaPlus /> */}Fire Resistant Coatings 
         </Link>
-        <ul>
+        {/* <ul>
           <li>
             <Link href="/shop">Property</Link>
           </li>
@@ -138,13 +138,13 @@ const MenuList = ({ addListing }) => {
               </li>
             </ul>
           </li>
-        </ul>
+        </ul> */}
       </li>
       <li className="menu-icon">
-        <Link href="#">
+        <Link href="/">
           {/* News <FaPlus /> */} News  
         </Link>
-        <ul>
+        {/* <ul>
           <li>
             <Link href="/blog">News</Link>
           </li>
@@ -157,7 +157,7 @@ const MenuList = ({ addListing }) => {
           <li>
             <Link href="/blog/right-sidebar">News Right sidebar</Link>
           </li>
-        </ul>
+        </ul> */}
       </li>
       {/* <li className="menu-icon mega-menu-parent">
         <Link href="#">
@@ -238,12 +238,12 @@ const MenuList = ({ addListing }) => {
         </ul>
       </li> */}
       <li>
-        <Link href="/contact">Contact</Link>
+        <Link href="/">Contact</Link>
       </li>
 
       {addListing ? (
         <li className="special-link">
-          <Link href="/add-listing">Add Listing</Link>
+          <Link href="/">Add Listing</Link>
         </li>
       ) : null}
     </ul>
